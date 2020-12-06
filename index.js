@@ -3,10 +3,6 @@ const qs = require('querystring');
 const net = require('net');
 const _ = require('./services/common');
 
-/*
-Credits to microsocket/CP5200 https://github.com/microsocket/CP5200.git (page not found)
-*/
-
 http.createServer(function(req,res) {
     var body = '';
 	req.on('data', function(data) {
